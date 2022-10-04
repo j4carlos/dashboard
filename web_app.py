@@ -117,7 +117,7 @@ def extraer(x):
 if st.checkbox('Medias moviles'):
    medias = [30,50,120,150,200,250]
    m = st.selectbox('Medias',medias)
-   datos = extraer(1.1*m)
+   datos = extraer(1.5*m)
 
    datosX = moving_average(datos,m)
 
